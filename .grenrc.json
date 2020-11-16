@@ -1,22 +1,7 @@
 {
-    "dataSource": "commits",
-    "prefix": "release test ",
-    "includeMessages": "commits",
-    "changelogFilename": "CHANGELOG.md",
-    "template": {
-        "commit": "- {{message}}",
-        "issue": "- {{labels}} {{name}} {{link}}",
-        "issueInfo": {
-            "labels": "{{labels}}",
-            "label": "[**{{label}}**]",
-            "name": "{{name}}",
-            "link": "[{{text}}]({{url}})"
-        },
-        "release": "## {{release}} {{date}}",
-        "releaseInfo": {
-            "release": "{{release}}",
-            "date": "({{date}})"
-        }
-    }
-
+    "dataSource": "issues",
+    "prefix": "article page ",
+    "onlyMilestones": false,
+    "groupBy": "label",
+    "changelogFilename": "CHANGELOG.md"
 }
