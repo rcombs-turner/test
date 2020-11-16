@@ -1,1 +1,2 @@
 asserts.article()
+activate.article();
