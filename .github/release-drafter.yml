@@ -28,7 +28,6 @@ version-resolver:
 template: |
   <img src="https://cdn.cnn.com/cnn/2019/images/01/04/logo_color@2x.png" alt="Stellar" width="150"/>
 
-  
   ## What's Changed
 
   $CHANGES
