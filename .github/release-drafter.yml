@@ -13,17 +13,6 @@ categories:
     label: 'maintenance'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
-version-resolver:
-  major:
-    labels:
-      - 'major'
-  minor:
-    labels:
-      - 'minor'
-  patch:
-    labels:
-      - 'patch'
-  default: patch
 template: |
   <img src="https://cdn.cnn.com/cnn/2019/images/01/04/logo_color@2x.png" alt="Stellar" width="150"/>
 
