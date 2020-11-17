@@ -1,5 +1,4 @@
-name-template: 'v$RESOLVED_VERSION https://cdn.cnn.com/cnn/2019/images/01/04/logo_color@2x.png'
-
+name-template: 'v$RESOLVED_VERSION'
 tag-template: 'v$RESOLVED_VERSION'
 categories:
   - title: '🚀 Features'
@@ -27,6 +26,7 @@ version-resolver:
       - 'patch'
   default: patch
 template: |
+ [logo]: https://cdn.cnn.com/cnn/2019/images/01/04/logo_color@2x.png "Stellar"
   ## What's Changed
 
   $CHANGES
