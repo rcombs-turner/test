@@ -26,6 +26,7 @@ version-resolver:
       - 'patch'
   default: patch
 template: |
-   ![alt text](https://cdn.cnn.com/cnn/2019/images/01/04/logo_color@2x.png =150x"Logo Title Text 1") ## What's Changed
+   ![alt text](https://cdn.cnn.com/cnn/2019/images/01/04/logo_color@2x.png =150x"Logo Title Text 1")
+   ## What's Changed
 
   $CHANGES
