@@ -27,6 +27,8 @@ version-resolver:
   default: patch
 template: |
  [logo]: https://cdn.cnn.com/cnn/2019/images/01/04/logo_color@2x.png "Stellar"
-  ## What's Changed
+ ![alt text](https://cdn.cnn.com/cnn/2019/images/01/04/logo_color@2x.png "Logo Title Text 1")
+  more markdown
+  ## What's Changedss
 
   $CHANGES
